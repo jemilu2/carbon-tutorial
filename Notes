@@ -1,0 +1,16 @@
+yarn add @carbon/grid
+
+we install above carbon package because we
+want to layout our pages with grid. I'm
+assuming the css grid customized by carbon
+in some way.
+
+the carbon grid has default column on 12
+$feature-flags: (
+  ui-shell: true,
+  grid-columns-16: true,
+);
+
+
+above is used to configure grid to have
+16-columns
